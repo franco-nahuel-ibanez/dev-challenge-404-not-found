@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100%;
+}
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 40px 77px;
+}
+
+header p{
+    display: inline;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+section{
+    position: relative;
+    top: 265px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 77px;
+    margin-bottom: 400px;
+}
+
+section img{
+    height: 447px;
+}
+
+.title{
+    max-width: 590px;
+}
+
+.title h1{
+    font-family: 'Space Mono', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.text{
+    max-width: 381px;
+    margin-top: 36px;
+}
+
+.text p{
+    font-family: 'Space Mono', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.btn{
+    
+    width: 216px;
+    height: 68px;
+    margin-top: 64px;
+    border: none;
+
+    font-family: 'Space Mono', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #333;
+}
+
+footer{
+
+    width: 100%;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+footer p,
+footer p a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+
+@media (min-width: 375px) {
+    header{
+        padding: 24px 20px;
+    }
+
+    section{
+        top: 109px;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0px 24px;
+    }
+
+    section img{
+        height: 238px;
+        margin: 0px auto;
+    } 
+
+    .title{
+        margin-top: 60px;
+    }
+
+    .title h1{
+        font-size: 48px;
+    }
+
+    .text{
+        width: 328px;
+    }
+
+    .text p{
+        font-size: 18px;
+    }
+}
+
